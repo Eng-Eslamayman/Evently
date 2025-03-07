@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace Evently.Modules.Events.Domain.Abstractions;
+namespace Evenlty.Common.Domain;
 
 public class Result
 {

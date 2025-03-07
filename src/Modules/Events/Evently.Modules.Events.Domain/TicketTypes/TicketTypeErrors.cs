@@ -1,5 +1,4 @@
-﻿using Evently.Modules.Events.Domain.Abstractions;
-
+﻿using Evenlty.Common.Domain;
 namespace Evently.Modules.Events.Domain.TicketTypes;
 
 public static class TicketTypeErrors
