@@ -1,4 +1,4 @@
-﻿using Evenlty.Common.Domain;
+﻿using Evently.Common.Domain;
 using Microsoft.AspNetCore.Http;
 
 namespace Evently.Modules.Events.Presentation.ApiResults;

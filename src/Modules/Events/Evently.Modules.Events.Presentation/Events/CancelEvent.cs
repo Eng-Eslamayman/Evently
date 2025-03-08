@@ -1,4 +1,4 @@
-﻿using Evenlty.Common.Domain;
+﻿using Evently.Common.Domain;
 using Evently.Modules.Events.Application.Events.CancelEvent;
 using Evently.Modules.Events.Presentation.ApiResults;
 using MediatR;

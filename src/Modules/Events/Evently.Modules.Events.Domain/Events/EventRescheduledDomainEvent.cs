@@ -1,4 +1,5 @@
-﻿using Evenlty.Common.Domain;
+﻿using Evently.Common.Domain;
+
 namespace Evently.Modules.Events.Domain.Events;
 
 public sealed class EventRescheduledDomainEvent(Guid eventId, DateTime startsAtUtc, DateTime? endsAtUtc)

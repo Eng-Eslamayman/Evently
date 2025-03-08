@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace Evenlty.Common.Domain;
+namespace Evently.Common.Domain;
 
 public class Result
 {

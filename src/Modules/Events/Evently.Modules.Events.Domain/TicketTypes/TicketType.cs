@@ -1,4 +1,4 @@
-﻿using Evenlty.Common.Domain;
+﻿using Evently.Common.Domain;
 using Evently.Modules.Events.Domain.Events;
 
 namespace Evently.Modules.Events.Domain.TicketTypes;

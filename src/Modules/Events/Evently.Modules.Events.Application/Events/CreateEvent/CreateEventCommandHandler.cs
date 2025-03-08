@@ -1,7 +1,7 @@
-﻿using Evenlty.Common.Domain;
-using Evently.Common.Application.Clock;
+﻿using Evently.Common.Application.Clock;
 using Evently.Common.Application.Data;
 using Evently.Common.Application.Messaging;
+using Evently.Common.Domain;
 using Evently.Modules.Events.Domain.Categories;
 using Evently.Modules.Events.Domain.Events;
 

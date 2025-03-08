@@ -1,4 +1,4 @@
-﻿using Evenlty.Common.Domain;
+﻿using Evently.Common.Domain;
 using Evently.Modules.Events.Application.TicketTypes.UpdateTicketTypePrice;
 using Evently.Modules.Events.Presentation.ApiResults;
 using MediatR;

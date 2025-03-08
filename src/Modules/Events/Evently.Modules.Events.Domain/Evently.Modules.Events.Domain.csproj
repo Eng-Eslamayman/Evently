@@ -1,5 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Common\Evenlty.Common.Domain\Evenlty.Common.Domain.csproj" />
+    <ProjectReference Include="..\..\..\Common\Evenlty.Common.Domain\Evently.Common.Domain.csproj" />
   </ItemGroup>
 </Project>

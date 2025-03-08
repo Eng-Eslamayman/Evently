@@ -1,4 +1,4 @@
-﻿namespace Evenlty.Common.Domain;
+﻿namespace Evently.Common.Domain;
 
 public abstract class Entity
 {

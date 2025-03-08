@@ -30,11 +30,11 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{439D8B50-8C70-4161-9E12-3A9AC7700CB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evently.Common.Application", "src\Common\Evently.Common.Application\Evently.Common.Application.csproj", "{3E84CA13-1143-46AC-99F9-4699B844699C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evently.Common.Application", "src\Common\Evently.Common.Application\Evently.Common.Application.csproj", "{3E84CA13-1143-46AC-99F9-4699B844699C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evenlty.Common.Domain", "src\Common\Evenlty.Common.Domain\Evenlty.Common.Domain.csproj", "{4D99273F-AFD4-47F6-BE7C-5325AE079336}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evently.Common.Domain", "src\Common\Evenlty.Common.Domain\Evently.Common.Domain.csproj", "{4D99273F-AFD4-47F6-BE7C-5325AE079336}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evently.Common.Infrastructure", "src\Common\Evently.Common.Infrastructure\Evently.Common.Infrastructure.csproj", "{121A7EF8-2BDB-4013-9EBB-44D3F505CA3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evently.Common.Infrastructure", "src\Common\Evently.Common.Infrastructure\Evently.Common.Infrastructure.csproj", "{121A7EF8-2BDB-4013-9EBB-44D3F505CA3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

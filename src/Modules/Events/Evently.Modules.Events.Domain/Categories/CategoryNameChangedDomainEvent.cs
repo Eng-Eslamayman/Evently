@@ -1,4 +1,4 @@
-﻿using Evenlty.Common.Domain;
+﻿using Evently.Common.Domain;
 
 namespace Evently.Modules.Events.Domain.Categories;
 
