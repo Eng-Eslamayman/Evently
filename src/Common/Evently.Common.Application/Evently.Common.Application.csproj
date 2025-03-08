@@ -14,9 +14,4 @@
     <ProjectReference Include="..\Evenlty.Common.Domain\Evently.Common.Domain.csproj" />
   </ItemGroup>
 
-	
-  <ItemGroup>
-    <Folder Include="Exceptions\" />
-  </ItemGroup>
-
 </Project>

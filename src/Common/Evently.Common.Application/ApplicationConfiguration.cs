@@ -17,7 +17,7 @@ public static class ApplicationConfiguration
         });
 
         services.AddValidatorsFromAssemblies(assemblies, includeInternalTypes: true);
-
+          
         return services;
     }
 
