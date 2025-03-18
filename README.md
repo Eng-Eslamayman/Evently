@@ -4,6 +4,8 @@
 Evently is a modular monolith project designed to manage event-related operations, including ticketing, attendance tracking, and user authentication. It is structured into different modules that handle event creation, ticket sales, user roles, and event attendance.
 
 ![image](https://github.com/user-attachments/assets/f533af85-8c54-4215-b310-8d1946a1f096)
+![image](https://github.com/user-attachments/assets/9c71f9d6-937d-40f1-b11a-4558f7bcdc7d)
+
 
 ## Agenda
 
