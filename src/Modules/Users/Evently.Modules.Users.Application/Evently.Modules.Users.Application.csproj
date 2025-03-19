@@ -2,12 +2,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Common\Evently.Common.Application\Evently.Common.Application.csproj" />
+    <ProjectReference Include="..\..\Ticketing\Evently.Modules.Ticketing.PublicApi\Evently.Modules.Ticketing.PublicApi.csproj" />
     <ProjectReference Include="..\Evently.Modules.Users.Domain\Evently.Modules.Users.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Users\UpdateUser\" />
-    <Folder Include="Users\RegisterUser\" />
   </ItemGroup>
 
 </Project>
