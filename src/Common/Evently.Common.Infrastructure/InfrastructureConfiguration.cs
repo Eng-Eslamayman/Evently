@@ -2,6 +2,7 @@
 using Evently.Common.Application.Clock;
 using Evently.Common.Application.Data;
 using Evently.Common.Application.EventBus;
+using Evently.Common.Infrastructure.Authentication;
 using Evently.Common.Infrastructure.Caching;
 using Evently.Common.Infrastructure.Clock;
 using Evently.Common.Infrastructure.Data;
@@ -27,6 +28,8 @@ public static class InfrastructureConfiguration
 
         try
         {
+            services.AddAuthenticationInternal();
+
             IConnectionMultiplexer connectionMultiplexer = ConnectionMultiplexer.Connect(redisConnectionString);
             services.AddSingleton(connectionMultiplexer);
 
