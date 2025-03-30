@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Evently.Common.Application.Authorization;
 using Evently.Common.Application.Data;
 using Evently.Common.Infrastructure.Interceptors;
 using Evently.Common.Presentation.Endpoints;
@@ -34,6 +35,8 @@ public static class UsersModule
 
     public static void AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
     {
+        services.AddScoped<IPermissionService, IPermissionService>();
+
         services.Configure<KeyCloakOptions>(configuration.GetSection("Users:KeyCloak"));
 
         services.AddTransient<KeyCloakAuthDelegatingHandler>();
