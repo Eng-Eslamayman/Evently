@@ -7,7 +7,7 @@ using Evently.Modules.Users.Domain.Users;
 
 namespace Evently.Modules.Users.Application.Users.GetUser;
 
-public class GetUserQueryHandler(IDbConnectionFactory connectionFactory) : IQueryHandler<GetUserQuery, UserResponse>
+internal sealed class GetUserQueryHandler(IDbConnectionFactory connectionFactory) : IQueryHandler<GetUserQuery, UserResponse>
 {
     public async Task<Result<UserResponse>> Handle(GetUserQuery request, CancellationToken cancellationToken)
     {

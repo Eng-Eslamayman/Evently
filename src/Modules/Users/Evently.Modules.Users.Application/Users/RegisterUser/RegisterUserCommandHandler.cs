@@ -7,7 +7,7 @@ using MediatR;
 
 namespace Evently.Modules.Users.Application.Users.RegisterUser;
 
-public class RegisterUserCommandHandler(
+internal sealed class RegisterUserCommandHandler(
     IUserRepository userRepository, 
     IIdentityProviderService identityProviderService,
     IUnitOfWork unitOfWork)
